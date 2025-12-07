@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - Atlantic City Casino</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">ATLANTIC CITY CASINO SPORTS</div>
+    </header>
+
+    <main class="registro-container">
+        <div class="promo-column">
+            <div class href="imagenes/atlaticcity.jpg">
+                </div>
+            <div class="promo-content">
+                <h2>Regístrate y llévate un premio con tu primer depósito</h2>
+                <ul>
+                    <li> Casino Online: Te devolvemos el 100% de tu depósito.</li>
+                    <li> Apuestas Deportivas: Te regalamos una apuesta gratuita.</li>
+                    <li> Promociones diarias y exclusivas.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="form-column">
+            <h3>REGÍSTRATE</h3>
+            <form action="#" method="POST" class="registro-form">
+
+                <input type="text" name="nombres" placeholder="Nombres" required>
+                <input type="text" name="apellido1" placeholder="Primer apellido" required>
+                <input type="text" name="apellido2" placeholder="Segundo apellido">
+
+                <select name="nacionalidad" required>
+                    <option value="">Nacionalidad</option>
+                    <option value="PE">Perú</option>
+                    <option value="CL">Chile</option>
+                    </select>
+
+                <div class="documento-group">
+                    <select name="tipo_documento" class="doc-select" required>
+                        <option value="DNI">DNI</option>
+                        <option value="CE">C.E.</option>
+                    </select>
+                    <input type="text" name="num_documento" placeholder="Número de documento" required>
+                </div>
+
+                <label for="fecha_nacimiento">Fecha de nacimiento</label>
+                <div class="fecha-group">
+                    <select name="dia" required><option value="">Día</option></select>
+                    <select name="mes" required><option value="">Mes</option></select>
+                    <select name="anio" required><option value="">Año</option></select>
+                </div>
+
+                <button type="submit" class="btn-siguiente">SIGUIENTE</button>
+            </form>
+
+            <div class="login-link">
+                ¿Ya tienes una cuenta? <a href="#">Inicia sesión</a>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
